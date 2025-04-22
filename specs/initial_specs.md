@@ -45,6 +45,7 @@ The project is empty
 
 ### Ending Context
 
+- `code_examples/` -> different minimal code example and documentation to generate stuff
 - `src/agents/abstract_agent.py` -> abstract class for the agents.
 - `src/agents/thumbail_agent.py` -> agent responsible for thumbnail creation
 - `src/agents/title_agent.py` -> agent responsible for title creation
@@ -53,6 +54,7 @@ The project is empty
 - `src/discord_manager.py` -> responsible for loading the threads, sending the messages to the agents, converting the conversations to a format understandable from discord to the agent and vice versa
 - `src/inference_manager.py` -> responsible to load the models in memory to do the different types of inference, and to send the queries to the model loaded for the inference and send it back to the agent
 - `src/prompts.yaml` -> list of all the premade prompts
+
 
 ## Low Level Tasks
 
